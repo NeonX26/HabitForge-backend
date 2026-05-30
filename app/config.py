@@ -8,10 +8,10 @@ class Settings(BaseSettings):
     jwt_secret: str = "dev-secret-change-in-production"
     jwt_algorithm: str = "HS256"
     jwt_expire_minutes: int = 60 * 24 * 7
-    jwt_cookie_name: str = "habitforge_token"
+    jwt_cookie_name: str = "dailymomentum_token"
     jwt_cookie_secure: bool = False
     jwt_cookie_samesite: str = "lax"
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,https://habit-forge-frontend.vercel.app/"
     anthropic_api_key: str | None = None
 
     @property

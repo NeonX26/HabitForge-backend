@@ -1,6 +1,6 @@
-# HabitForge Backend
+# DailyMomentum Backend
 
-FastAPI + PostgreSQL API for HabitForge.
+FastAPI + PostgreSQL API for DailyMomentum.
 
 ## Setup
 

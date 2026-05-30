@@ -21,7 +21,7 @@ from app.routers import (
     wellness,
 )
 
-app = FastAPI(title="HabitForge API", version="1.0.0")
+app = FastAPI(title="DailyMomentum API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
